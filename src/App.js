@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
-import Countdown from "./countdown/Countdown";
+import Countdown from "./demo1/Countdown";
+import SimpleTypingGame from "./demo2/SimpleTypingGame";
 
 class App extends Component {
 
@@ -10,6 +11,10 @@ class App extends Component {
                 <div className='Demo'>
                     <p>Demo 1: Countdown </p>
                     <Countdown/>
+                </div>
+                <div className='Demo'>
+                    <p>Demo 2: Simple Typing-Game </p>
+                    <SimpleTypingGame />
                 </div>
 
                 <div className="footer">
