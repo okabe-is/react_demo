@@ -4,7 +4,9 @@ import NumberUtil from "../NumberUtil";
 
 import "./SimpleTypeingGame.css"
 
-const quiz_list = ["apple", "banana", "lemon", "orange", "cherries", "grapes"];
+const quiz_list = ["apple", "avocado", "banana", "coconut", "durian", "plums",
+    "guava", "lemon", "lychee", "orange", "papaya", "pineapple", "prunes"
+];
 
 class SimpleTypingGame extends Component {
 
