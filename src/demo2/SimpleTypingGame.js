@@ -1,7 +1,8 @@
 import React, {Component} from "react";
 import CharDump from "./dump/CharDump";
-
 import NumberUtil from "../NumberUtil";
+
+import "./SimpleTypeingGame.css"
 
 const quiz_list = ["apple", "banana", "lemon", "orange", "cherries", "grapes"];
 
@@ -56,7 +57,7 @@ class SimpleTypingGame extends Component {
                 <div className="targetText">
                     {quiz_chars}
                 </div>
-                <p>correct: {this.state.correct_num}</p>
+                <p className="Score">SCORE: {this.state.correct_num}</p>
             </div>
         );
     }
