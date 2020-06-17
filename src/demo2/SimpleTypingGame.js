@@ -49,6 +49,7 @@ class SimpleTypingGame extends Component {
         // generate quiz character components
         const quiz_chars = this.state.quiz.split('').map((char, index) => {
             return <CharDump char={char}
+                             key={index}
                              inputChar={this.state.inputText.split('')[index]}/>
         });
 
